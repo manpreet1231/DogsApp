@@ -9,12 +9,117 @@
     
         <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to the Dogs App!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+           
+            
+            <ListView >
+                <ListView.ItemsSource>
+                    
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>affenpinscher</x:String>
+                        <x:String>african</x:String>
+                        <x:String>airedale</x:String>
+                        <x:String>akita</x:String>
+                        <x:String>appenzeller</x:String>
+                        <x:String>australian: shepherd</x:String>
+                        <x:String>basenji</x:String>
+                        <x:String>beagle</x:String>
+                        <x:String>bluetick</x:String>
+                        <x:String>borzoi</x:String>
+                        <x:String>bouvier</x:String>
+                        <x:String>boxer</x:String>
+                        <x:String>brabancon</x:String>
+                        <x:String>briard</x:String>
+                        <x:String>buhund: norwegian</x:String>
+                        <x:String>bulldog: boston,english,french</x:String>
+                        <x:String>bullterrier: staffordshire</x:String>
+                        <x:String>cattledog: australian</x:String>
+                        <x:String>chihuahua</x:String>
+                        <x:String>chow</x:String>
+                        <x:String>clumber</x:String>
+                        <x:String>cockapoo</x:String>
+                        <x:String>collie: border</x:String>
+                        <x:String>coonhound</x:String>
+                        <x:String>corgi: cardigan</x:String>
+                        <x:String>cotondetulear</x:String>
+                        <x:String>dachshund</x:String>
+                        <x:String>dalmatian</x:String>
+                        <x:String>dane: great</x:String>
+                        <x:String>deerhound: scottish</x:String>
+                        <x:String>dhole</x:String>
+                        <x:String>dingo</x:String>
+                        <x:String>doberman</x:String>
+                        <x:String>elkhound: norwegian</x:String>
+                        <x:String>entlebucher</x:String>
+                        <x:String>eskimo</x:String>
+                        <x:String>finnish: lapphund</x:String>
+                        <x:String>frise: bichon</x:String>
+                        <x:String>germanshepherd</x:String>
+                        <x:String>greyhound: italian</x:String>
+                        <x:String>groenendael</x:String>
+                        <x:String>havanese</x:String>
+                        <x:String>hound: afghan,basset,blood,english,ibizan,plott,walker</x:String>
+                        <x:String>husky</x:String>
+                        <x:String>keeshond</x:String>
+                        <x:String>kelpie</x:String>
+                        <x:String>komondor</x:String>
+                        <x:String>kuvasz</x:String>
+                        <x:String>labradoodle</x:String>
+                        <x:String>labrador</x:String>
+                        <x:String>leonberg</x:String>
+                        <x:String>lhasa</x:String>
+                        <x:String>malamute</x:String>
+                        <x:String>malinois</x:String>
+                        <x:String>maltese</x:String>
+                        <x:String>mastiff: bull,english,tibetan</x:String>
+                        <x:String>mexicanhairless</x:String>
+                        <x:String>mix</x:String>
+                        <x:String>mountain: bernese,swiss</x:String>
+                        <x:String>newfoundland</x:String>
+                        <x:String>otterhound</x:String>
+                        <x:String>ovcharka: caucasian</x:String>
+                        <x:String>papillon</x:String>
+                        <x:String>pekinese</x:String>
+                        <x:String>pembroke</x:String>
+                        <x:String>pinscher: miniature</x:String>
+                        <x:String>pitbull</x:String>
+                        <x:String>pointer: german,germanlonghair</x:String>
+                        <x:String>pomeranian</x:String>
+                        <x:String>poodle: miniature,standard,toy</x:String>
+                        <x:String>pug</x:String>
+                        <x:String>puggle</x:String>
+                        <x:String>pyrenees</x:String>
+                        <x:String>redbone</x:String>
+                        <x:String>retriever: chesapeake,curly,flatcoated,golden</x:String>
+                        <x:String>ridgeback: rhodesian</x:String>
+                        <x:String>rottweiler</x:String>
+                        <x:String>saluki</x:String>
+                        <x:String>samoyed</x:String>
+                        <x:String>schipperke</x:String>
+                        <x:String>schnauzer: giant,miniature</x:String>
+                        <x:String>setter: english,gordon,irish</x:String>
+                        <x:String>sheepdog: english,shetland</x:String>
+                        <x:String>shiba</x:String>
+                        <x:String>shihtzu</x:String>
+                        <x:String>spaniel: blenheim,brittany,cocker,irish,japanese,sussex,welsh</x:String>
+                        <x:String>springer: english</x:String>
+                        <x:String>stbernard</x:String>
+                        <x:String>terrier: american,australian,bedlington,border,cairn,dandie,fox,irish,kerryblue,lakeland,norfolk,norwich,patterdale,russell,scottish,sealyham,silky,tibetan,toy,welsh,westhighland,wheaten,yorkshire</x:String>
+                        <x:String>tervuren</x:String>
+                        <x:String>vizsla</x:String>
+                        <x:String>waterdog: spanish</x:String>
+                        <x:String>weimaraner</x:String>
+                        <x:String>whippet</x:String>
+                        <x:String>wolfhound: irish</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>
+            </ListView>
+
+            <Label Margin="7,7" FontSize="17" TextColor="Black" Text="{Binding MyStringProperty}"/>
 
             <Button Text="Open Google" Command="{Binding OpenGoogleCammand}"/>
             <Button Text="Open Dogs Api" Command="{Binding OpenDogsAPICammand}"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

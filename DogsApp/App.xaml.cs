@@ -15,6 +15,8 @@ namespace DogsApp
             InitializeComponent();
 
             DependencyService.Register<IWebClientService>();
+            //DependencyService.Register<EmailClientServiceGmail>();
+            //DependencyService.Register<EmailClientServiceOutlook>();
             MainPage = new AppShell();
         }
 
