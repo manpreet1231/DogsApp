@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>5.8_1080x2340xxhdpi</SelectedDevice>
+    <ActiveDebugProfile>5.8_1080x2340xxhdpi</ActiveDebugProfile>
+    <DefaultDevice>5.8_1080x2340xxhdpi</DefaultDevice>
+  </PropertyGroup>
+</Project>
