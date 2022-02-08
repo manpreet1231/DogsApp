@@ -6,11 +6,6 @@ C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.csproj
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.AssemblyInfoInputs.cache
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.AssemblyInfo.cs
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.csproj.CoreCompileInputs.cache
@@ -18,3 +13,4 @@ C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.dll
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\ref\DogsApp.dll
 C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\DogsApp.pdb
+C:\Users\AzharIIS\source\DogsApp\DogsApp\obj\Debug\netstandard2.0\Views\WelcomePage.xaml.g.cs
