@@ -1,5 +1,6 @@
 ﻿//using DogsApp.Services;
 //using DogsApp.Views;
+using DogsApp.Services;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +14,7 @@ namespace DogsApp
         {
             InitializeComponent();
 
-            //DependencyService.Register<MockDataStore>();
+            DependencyService.Register<IWebClientService>();
             MainPage = new AppShell();
         }
 
