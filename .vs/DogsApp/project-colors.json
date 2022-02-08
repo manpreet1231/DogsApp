@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3d084da0-969d-43b5-889a-b4d038b416e5": {
+      "ProjectGuid": "3d084da0-969d-43b5-889a-b4d038b416e5",
+      "DisplayName": "DogsApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
