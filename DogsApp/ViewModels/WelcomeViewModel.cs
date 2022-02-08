@@ -1,6 +1,9 @@
 ﻿
 using MvvmHelpers;
+using MvvmHelpers.Commands;
+using System.Threading.Tasks;
 using System.Windows.Input;
+using Xamarin.Essentials;
 
 namespace DogsApp.ViewModels
 {
@@ -10,6 +13,12 @@ namespace DogsApp.ViewModels
         public WelcomeViewModel() 
         {
             Title = "Welcome";
+            OpenGoogleCammand = new AsyncCommand(OpenGoogle);
+        }
+
+        private async Task OpenGoogle()
+        {
+            await Browser.OpenAsync("https://www.google.com/");
         }
     }
 }
